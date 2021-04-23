@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.menu{
+    list-style: none;
+    margin-left: 400px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.first li{
+    margin-top: 10px;
+    float: left;
+    padding-left: 100px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.first li a{
+    text-decoration: none;
+    color: black;
+}
+
+.first li a:hover{
+    opacity: 0.7;
+}
+
+.first{
+    background-color: #FFBA08;
+    background-size: cover;
+    height: 100vh;
+}
+
+.first h1{
+    font-size: 40px;
+    margin-top: 270px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.first h1 a{
+    text-decoration: none;
+    color: #f5d27a;
+}
+
+.first h1 a:hover{
+    color: rgb(36, 34, 34);
+}
+
+.content{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 140px 520px;
+}
+
+.content span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+    animation: animate 6s linear infinite;
+}
+
+.content span:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+    animation: animate 4s linear infinite;
+}
+
+.content span:nth-child(3){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59% ;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+/*layer2*/
+#second{
+    background-color: #FAA307;
+    height: 105vh;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.second-kiri{
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-left: 20px;
+    color: ivory;
+    
+}
+
+.second-kiri h1{
+    margin-top: 40px;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.second-kiri img{
+    position: absolute;
+
+}
+
+.second-kanan {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+
+} 
+
+.second-kanan h1{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.psatu{
+    background-color: #F3EEC3;
+    padding: 10px 30px;
+    height: 300px;
+    width: 500px;
+    margin: 180px 50px;
+    border-radius: 30px;
+} 
+
+.psatu-text{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.psatu-kontak {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+i{
+    margin-left: 20px;
+}
+
+.psatu-kontak a{
+    color: #F48C06;
+}
+
+.psatu-kontak a:hover{
+    color:rgb(36, 34, 34);
+}
+
+/*ketiga*/
+#third{
+    height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #F48C06;
+}
+
+#third h1{
+    font-size: 80px;
+    margin-top: 120px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: ivory;
+    writing-mode: vertical-lr;
+}
+.third-kiri{
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.kotak1{
+    width: 500px;
+    height: 550px;
+    background-color: #F3EEC3;
+    border-radius: 30px;
+    margin:50px 50px;
+}
+
+.kotak1 img{
+    width: 400px;
+    margin: 40px 50px;
+}
+
+.kotak1-text{
+    padding: 0 50px;
+}
+
+.kotak1-text ul{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.kotak1-text a{
+    text-decoration: none;
+    color: #8A51E2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.kotak1-text a:hover{
+    color: #790D94;
+}
+
+.third-kanan {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    
+} 
+
+.kotak2{
+    width: 500px;
+    height: 550px;
+    background-color: #F3EEC3;
+    border-radius: 30px;
+    margin: 50px 50px;
+}
+
+.kotak2 img{
+    width: 400px;
+    margin: 40px 50px;
+}
+
+.kotak2-text{
+    padding: 0 50px;
+}
+
+.kotak2-text ul{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.kotak2-text a{
+    text-decoration: none;
+    color: #E25151;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.kotak2-text a:hover{
+    color: #940D0D;
+}
